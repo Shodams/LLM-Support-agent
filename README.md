@@ -2,7 +2,7 @@
 Production-ready LLM RAG agent with tools and UI
 
 
-# 🧠 LLM Support Agent (RAG + Tools)
+# LLM Support Agent (RAG + Tools)
 
 A production-ready LLM application demonstrating:
 
@@ -12,9 +12,9 @@ A production-ready LLM application demonstrating:
 - Tool-augmented agents
 - Streamlit UI
 
----
 
-## 🚀 Features
+
+## Features
 
 - Custom dataset generation
 - Local vector search (FAISS)
@@ -24,7 +24,7 @@ A production-ready LLM application demonstrating:
 
 ---
 
-## 🏗 Architecture
+## Architecture
 
 User Query → Embeddings → FAISS → Retrieved Context → LLM → Response
 

@@ -1,14 +1,14 @@
-# 🧠 LLM Support Agent (RAG + LangChain + FAISS)
+# LLM Support Agent (RAG + LangChain + FAISS)
 
 An AI-powered customer support chatbot built using Retrieval-Augmented Generation (RAG), LangChain, and FAISS.  
 It retrieves relevant knowledge from a dataset and generates accurate, context-aware responses using LLMs.
 
-## 🚀 Demo
+## Demo
 
 ![App Screenshot](assets/demo.png)
 
 
-## 🧠 Problem
+## Problem
 
 Traditional chatbots rely on static rules or limited context.
 
@@ -76,7 +76,7 @@ vector_store/
 data/
 app.py
 ---
-## 📈 Future Improvements
+## Future Improvements
 
 - Add chat memory
 - Support PDF ingestion

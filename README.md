@@ -76,7 +76,12 @@ vector_store/
 data/
 app.py
 ---
+## 📈 Future Improvements
 
+- Add chat memory
+- Support PDF ingestion
+- Deploy to cloud (Streamlit / AWS)
+- Add multi-agent system
 
 ## ▶️ Run Locally
 
@@ -99,9 +104,4 @@ streamlit run app.py
 git clone https://github.com/yourusername/llm-support-agent.git
 cd llm-support-agent
 
-## 📈 Future Improvements
 
-- Add chat memory
-- Support PDF ingestion
-- Deploy to cloud (Streamlit / AWS)
-- Add multi-agent system

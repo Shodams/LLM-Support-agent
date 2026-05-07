@@ -88,12 +88,7 @@ pip install -r requirements.txt
 python -m app.data_generator
 python -m app.ingest
 streamlit run app.py
-## ⚙️ Setup
 
-### 1. Clone repo
 
-```bash
-git clone https://github.com/yourusername/llm-support-agent.git
-cd llm-support-agent
 
 

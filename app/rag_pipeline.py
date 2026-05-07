@@ -5,9 +5,9 @@ RAG Pipeline:
 - Queries LLM
 """
 
-from langchain.vectorstores import FAISS
-from langchain.embeddings import HuggingFaceEmbeddings
-from langchain.chat_models import ChatOpenAI
+from langchain_community.vectorstores import FAISS
+from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_openai import ChatOpenAI
 from langchain.chains import RetrievalQA
 
 from app.config import EMBEDDING_MODEL, VECTOR_DB_PATH, OPENAI_API_KEY
@@ -17,8 +17,9 @@ def load_rag_pipeline():
     embeddings = HuggingFaceEmbeddings(model_name=EMBEDDING_MODEL)
 
     vectorstore = FAISS.load_local(
-        VECTOR_DB_PATH,
-        embeddings
+    VECTOR_DB_PATH,
+    embeddings,
+    allow_dangerous_deserialization=True
     )
 
     retriever = vectorstore.as_retriever()

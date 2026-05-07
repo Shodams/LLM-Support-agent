@@ -6,9 +6,9 @@ Handles:
 """
 
 import json
-from langchain.schema import Document
-from langchain.embeddings import HuggingFaceEmbeddings
-from langchain.vectorstores import FAISS
+from langchain_core.documents import Document
+from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_community.vectorstores import FAISS
 
 from app.config import EMBEDDING_MODEL, VECTOR_DB_PATH
 

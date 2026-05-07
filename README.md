@@ -52,15 +52,7 @@ A production-ready LLM application demonstrating:
 
 User Query → Embeddings → FAISS → Retrieved Context → LLM → Response
 
-User → Query
-      ↓
-Vector DB (FAISS)
-      ↓
-Relevant Context
-      ↓
-LLM (OpenAI)
-      ↓
-Answer
+
 
 
 ## 📂 Project Structure
